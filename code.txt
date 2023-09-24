@@ -1,0 +1,59 @@
+STRING  Report_1_message
+Report_1_message="\nScript executed.\n"
+NUMBER num1
+NUMBER num2
+NUMBER _result
+NUMBER _Result
+num1=3
+num2 	=   12
+num2 = num2 + 100 - 4 * num1 * 5 # 12 + 100 - 4*3*5 = 52
+
+_Result = num2 
+
+_result = 0
+
+PRINT "Expression value is "
+PRINT	_Result
+PRINT "\nThe value above should be "
+PRINT 52
+PRINT ", not "
+PRINT _result
+PRINT Report_1_message
+
+
+
+#PRINT "#this is my print words" #does this work?
+#PRINT 10
+#NUMBER size
+#NUMBER amount
+#STRING str1
+#STRING str2
+#STRING STRING
+#size = 6
+#amount = 1
+#size = 3+5*2+1*2
+#size = 5 + 5
+#PRINT size
+#size = amount
+#PRINT size
+#str1 = "My car is old" # a comment
+#str2 = "string + with - arithmetic"
+#PRINT str1
+#str1 = str2
+#PRINT str1
+# str1 = str2 # a comment
+# str2=str3 # a comment
+#I am a comment
+
+# I am also a comment
+          
+# String = "# a comment in a quotes"
+
+# Hello How are you 
+
+# var = 12345 # allowed   
+         
+# var = -12345 # not allowed   
+
+# var = 0 - 12456 # allowed  
+            

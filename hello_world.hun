@@ -1,0 +1,5 @@
+# This fuctions prints hello world to the console.
+
+STRING  str 
+str = "Hello World!\n"
+PRINT  str
